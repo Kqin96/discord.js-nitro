@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 
 client.on('messageCreate', async message => {
-  if (message.content.startsWith('t!nit')) {
+  if (message.content.startsWith('!nit')) {
     const nitro = require('discord.js-nitro');
     const boost = false;
     message.channel.send(`${nitro`${(boost)}`}`);
